@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     
     # mine
     'student',
+    
+    # third
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

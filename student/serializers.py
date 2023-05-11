@@ -1,13 +1,14 @@
 from rest_framework import serializers
 from .models import Path, Student
 
-# First Way with Serializars
+# First Way with Serializers
+
 # class StudentSerializerWithSerializer(serializers.Serializer):
 #     first_name = serializers.CharField(max_length=30)
 #     last_name = serializers.CharField(max_length=30)
 #     number = serializers.IntegerField()
 
-# Secand Way
+# Second Way
 
 
 
