@@ -22,7 +22,7 @@ class StudentSerializer(serializers.ModelSerializer):
         # exclude = ["path"]
 
     def validate_last_name(self,value):
-        if not value == value.upper()
+        if not value == value.upper():
             raise serializers.ValidationError("Last name should be all upper case")
         return value
 
