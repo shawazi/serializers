@@ -10,8 +10,6 @@ from .models import Path, Student
 
 # Second Way
 
-
-
 class StudentSerializer(serializers.ModelSerializer):
     path = serializers.StringRelatedField()
     path_id = serializers.IntegerField(required=False)

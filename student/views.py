@@ -18,6 +18,6 @@ class StudentView(ListCreateAPIView):
     serializer_class = StudentSerializer
     queryset = Student.objects.all()
 
-class StudenDetailView(RetrieveUpdateDestroyAPIView):
+class StudentDetailView(RetrieveUpdateDestroyAPIView):
     serializer_class = StudentSerializer
     queryset = Student.objects.all()
